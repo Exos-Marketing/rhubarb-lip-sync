@@ -1,3 +1,24 @@
+= Rhubarb Lip Sync em português: a boca do seu mascote sincronizada com a fala
+
+[NOTE]
+====
+*Cópia mantida pela https://www.instagram.com/exosmkt/[Exos Marketing].* O Rhubarb Lip Sync foi criado por *Daniel Wolf (https://github.com/DanielSWolf[DanielSWolf])* e está aqui sob a licença original, sem alteração no código. Repositório original: https://github.com/DanielSWolf/rhubarb-lip-sync[DanielSWolf/rhubarb-lip-sync].
+====
+
+== O que ele faz
+
+Você entrega um áudio (a narração do seu vídeo) e o Rhubarb devolve, quadro a quadro, qual formato de boca o seu personagem deve fazer. É assim que um mascote ou boneco 2D "fala" junto com a voz.
+
+== Instalação em 1 minuto
+
+. Baixe a versão pronta para o seu sistema (Windows, macOS ou Linux) em https://github.com/DanielSWolf/rhubarb-lip-sync/releases/latest[Releases].
+. Descompacte e rode no terminal: `rhubarb -o boca.tsv narracao.wav`
+. Ou peça ao Claude Code: _"usa o Rhubarb pra gerar a sincronia da boca do meu mascote com esse áudio e aplica no vídeo"_.
+
+*Dica:* desenhe (ou gere com IA) as 6 bocas básicas do seu personagem (A a F, descritas abaixo). O Rhubarb diz qual usar em cada instante.
+
+'''
+
 = Rhubarb Lip Sync
 :toc:
 :icons: font
